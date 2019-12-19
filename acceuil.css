@@ -1,0 +1,117 @@
+/*
+CSS for header
+*/
+html{
+    overflow-y:scroll
+}
+header{
+    background-color:#7e8894;
+    
+    
+}
+.col2{
+    background-color:#7e8894;
+    height: 75px;
+    
+}
+.part-total{
+    margin:15px;
+    color:white;
+    font-size:x-large;
+
+}
+.input-total{
+    color:white;
+}
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+h2{
+    color:#35A852;
+}
+
+.collapse{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    color:#333 !important;
+}
+.active{
+    color: white !important;
+}
+.nav-link:hover{
+    color: rgba(0,0,0,.9);
+}
+
+.link_logo{
+    text-decoration: none;
+}
+
+/*
+CSS for main
+*/
+
+/*
+Section1
+*/
+.caroussel {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    
+}
+.d-block{
+    width:100%;
+    height: 700px;
+}
+
+/*
+Section2
+*/
+
+.section2{
+    background-color:#CFCFCF;
+    height:800px;
+}
+svg{
+    width:24px;
+    height: 24px;
+}
+.img-section2{
+    width:188px;
+    height:188px;
+}
+
+.col1{
+    text-align: center;
+    background-color: white;
+    
+}
+.input-total{
+    width:100px;
+}
+.qte-input,.qte-input1,.qte-input3{
+    width:25px;
+}
+
+.libelleArticle{
+    font-size: 25px;
+    margin:30px;
+}
+.price-style
+{
+    font-size: 25px;
+    padding-top:45px;
+}
+
+.likeDelete{
+    padding-top:45px ;
+}
+
+.quantite{
+    padding-top: 45px;
+}
